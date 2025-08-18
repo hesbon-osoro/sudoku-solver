@@ -16,7 +16,7 @@ export default function SudokuSolver() {
   const [error, setError] = useState<string | null>(null);
   const [isSolving, setIsSolving] = useState(false);
   const [hasConflict, setHasConflict] = useState(false);
-  const [isComplete, setIsComplete] = useState(false);
+  const isComplete = grid.flat().every(cell => cell !== 0);
 
   // Validate entire grid whenever it changes
   useEffect(() => {
@@ -158,7 +158,8 @@ export default function SudokuSolver() {
     setIsSolving(false);
   };
   const handleSave = () => {
-    if (!isComplete) {
+    const isFilled = grid.flat().every(cell => cell !== 0);
+    if (!isFilled || hasConflict) {
       setError('Complete the puzzle correctly before saving');
       return;
     }
@@ -212,17 +213,6 @@ export default function SudokuSolver() {
           </div>
           <p className="grid-description">6×6 grid with 2×3 regions</p>
         </div>
-
-        {/* <div className="sudoku-stats">
-          <span>
-            {solveTime
-              ? `Solved in: ${(solveTime / 1000).toFixed(2)}s`
-              : 'Ready'}
-          </span>
-          <span>
-            {backtrackCount !== null ? `Backtracks: ${backtrackCount}` : ' '}
-          </span>
-        </div> */}
 
         <div className="sudoku-content">
           <div className="sudoku-grid">
