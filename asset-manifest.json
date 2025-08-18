@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hesbon-osoro/sudoku-solver.git/static/css/main.dbb8e2c6.css",
-    "main.js": "/hesbon-osoro/sudoku-solver.git/static/js/main.6c008961.js",
-    "static/js/453.bfe80b8a.chunk.js": "/hesbon-osoro/sudoku-solver.git/static/js/453.bfe80b8a.chunk.js",
-    "index.html": "/hesbon-osoro/sudoku-solver.git/index.html",
-    "main.dbb8e2c6.css.map": "/hesbon-osoro/sudoku-solver.git/static/css/main.dbb8e2c6.css.map",
-    "main.6c008961.js.map": "/hesbon-osoro/sudoku-solver.git/static/js/main.6c008961.js.map",
-    "453.bfe80b8a.chunk.js.map": "/hesbon-osoro/sudoku-solver.git/static/js/453.bfe80b8a.chunk.js.map"
+    "main.css": "/sudoku-solver/static/css/main.dbb8e2c6.css",
+    "main.js": "/sudoku-solver/static/js/main.d5421476.js",
+    "static/js/453.bfe80b8a.chunk.js": "/sudoku-solver/static/js/453.bfe80b8a.chunk.js",
+    "index.html": "/sudoku-solver/index.html",
+    "main.dbb8e2c6.css.map": "/sudoku-solver/static/css/main.dbb8e2c6.css.map",
+    "main.d5421476.js.map": "/sudoku-solver/static/js/main.d5421476.js.map",
+    "453.bfe80b8a.chunk.js.map": "/sudoku-solver/static/js/453.bfe80b8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbb8e2c6.css",
-    "static/js/main.6c008961.js"
+    "static/js/main.d5421476.js"
   ]
 }
