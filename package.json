@@ -3,7 +3,7 @@
   "description": "A lightweight React application that solves 6×6 Sudoku puzzles with 2×3 regions.",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/hesbon-osoro/sudoku-solver.git",
+  "homepage": "https://hesbon-osoro.github.io/sudoku-solver",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
